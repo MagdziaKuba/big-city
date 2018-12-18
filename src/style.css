@@ -1,0 +1,184 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+	color:#4f4d6a;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding: 0;
+}
+#content_page{
+	width: 1550px;
+	height: 2550px;
+	border: 1px solid black;
+	display: flex;
+    flex-direction: column;
+}
+#main_header{
+	width:1550px;
+	height: 1150px;
+	background-image: url("../images/city.png");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+#logo{
+	position: absolute;
+	top:70px;
+	left:300px;
+	font-size: 25px;
+}
+#menu{
+	position: absolute;
+	top:40px;
+	list-style-type: none;
+}
+	
+#menu > li{
+	float:left;
+	padding: 30px;
+}
+#main_section{
+	display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#main_section > h5{
+	font-size: 16px;
+}
+#main_section > h1{
+	font-size: 90px;
+}
+.buttons{
+	display: flex;
+    flex-direction: row;
+	position:absolute;
+	top:480px;
+	text-align: center;
+}
+.main_button{
+	border: none;
+	border-radius: 50px;
+	width: 220px;
+	height: 45px;
+	margin:10px;
+	color:white;
+	font-size: 16px;
+}
+
+.first_button{
+	background-color: #5b5976;
+
+}
+.second_button{
+	background-color: #b7a4b1;
+}
+#main_content{
+
+}
+#title_section{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:1150px; 
+    z-index: 1;
+    margin:70px;
+}
+#title_section > h5{
+	font-size: 16px;
+}
+#title_section > h2{
+	font-size: 50px;
+}
+#first_article{
+	width: 1550px;
+	height: 800px;
+	background-color:#ebebeb;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:1150px; 
+}
+.fixed_width{
+	width: 960px;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#first_article > .item1{
+
+}
+
+.circle{
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	border:1px solid black;
+	background-image: url("../images/wholeCity2.png");
+}
+#second-article{
+	width: 1550px;
+	height: 300px;
+	background-color:white;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:1950px;
+} 
+
+.view_more{
+	color:white;
+	background-color: #4f4d6a;
+	border:none;
+	position: absolute;
+	top:200px;
+	width: 100px;
+	height: 25px;
+}
+.view_one{
+	left:300px;
+}
+.view_three{
+	right:300px;
+}
+#foother_page{
+	width: 1550px;
+	height: 300px;
+	background-color:#505050;
+	color:white;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:2250px;
+}
+.fixed_butons{
+	top:600px;
+}
+#copyright{
+	display: flex;
+    flex-direction: row;
+	width: 960px;
+	color: white;
+	z-index: 1;
+	position: absolute;
+	top:2500px;
+	margin-left:300px;
+}
