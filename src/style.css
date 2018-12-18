@@ -122,13 +122,59 @@ h1,h2,h3,h4,h5,h6{
 #first_article > .item1{
 
 }
-
+.big_circle{
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	border:1px solid #efefef;
+	background-color: #efefef;
+}
 .circle{
-	width: 175px;
-	height: 175px;
+	width: 174px;
+	height: 174px;
 	border-radius: 50%;
 	border:1px solid black;
+	/*background-image: url("../images/wholeCity2.png");*/
+	background-repeat: no-repeat;
+	/*background-position: 50px 100px;*/
+	position: relative;
+	right:20px;
+	top:5px;
+}
+#tower_img{
 	background-image: url("../images/wholeCity2.png");
+	background-position: -70px -15px;
+}
+#big_city_img{
+	background-image: url("../images/wholeCity_bigCity.png");
+	background-position: -120px -15px;
+}
+#city_img{
+	background-image: url("../images/wholeCity2.png");
+	background-position: -70px -15px;
+}
+#church_img{
+	background-image: url("../images/wholeCity_church.png");
+	background-position: -800px -180px;
+}
+.circle:hover{
+	cursor: pointer;
+}
+.title_imgs{
+	font-style: italic;
+	visibility: hidden;
+}
+.circle:hover > .title_imgs{
+	display: block;
+	visibility: visible; /*nie dziala*/
+	z-index: 2;
+}
+summary{
+	font-size: 16px;
+}
+.summary_article{
+	margin-top: 20px;
+	font-size: 12px;
 }
 #second-article{
 	width: 1550px;
