@@ -65,6 +65,12 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     text-transform: uppercase;
 }
+#main_section > h5{
+	font-size: 16px;
+}
+#main_section > h1{
+	font-size: 90px;
+}
 .long_line{
 	color:white;
 	width: 960px;
@@ -74,12 +80,7 @@ h1,h2,h3,h4,h5,h6{
 	color:white;
 	width: 400px;
 	height: 1px;
-}
-#main_section > h5{
-	font-size: 16px;
-}
-#main_section > h1{
-	font-size: 90px;
+	opacity: 1;
 }
 .buttons{
 	display: flex;
@@ -241,6 +242,11 @@ summary{
 	top:200px;
 	width: 100px;
 	height: 25px;
+}
+.view_more:hover{
+	color:#4f4d6a;
+	background-color: white;
+	border: 1px solid #4f4d6a;
 }
 .view_one{
 	left:300px;
