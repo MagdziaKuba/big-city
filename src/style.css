@@ -44,6 +44,18 @@ h1,h2,h3,h4,h5,h6{
 	float:left;
 	padding: 30px;
 }
+#menu > li > a{
+	text-decoration: none; 
+	color:#4f4d6a;
+	text-transform: uppercase;
+	font-size:12px;
+	font-weight: bold;
+}
+#menu > li > a:hover{ 
+	color:black;
+	border-bottom: 2px solid #4f4d6a;
+}
+
 #main_section{
 	display: flex;
     flex-direction: column;
@@ -51,6 +63,16 @@ h1,h2,h3,h4,h5,h6{
     top:200px;
     text-align: center;
     text-transform: uppercase;
+}
+.long_line{
+	color:white;
+	width: 960px;
+	height: 1px;
+}
+.short_line{
+	color:white;
+	width: 400px;
+	height: 1px;
 }
 #main_section > h5{
 	font-size: 16px;
@@ -77,10 +99,19 @@ h1,h2,h3,h4,h5,h6{
 
 .first_button{
 	background-color: #5b5976;
-
+}
+.first_button:hover{
+	background-color: white;
+	color:#5b5976;
+	font-weight: 700;
 }
 .second_button{
 	background-color: #b7a4b1;
+}
+.second_button:hover{
+	background-color: white;
+	color: #b7a4b1;
+	font-weight: 700;
 }
 #main_content{
 
@@ -94,6 +125,7 @@ h1,h2,h3,h4,h5,h6{
     top:1150px; 
     z-index: 1;
     margin:70px;
+    text-transform: uppercase
 }
 #title_section > h5{
 	font-size: 16px;
@@ -187,11 +219,20 @@ summary{
     position: absolute;
     top:1950px;
 } 
+#second-article >p{
+	line-height: 18px;
+}
+#second-article-title{
+	position: absolute;
+    top:60px;
+    left:300px;
+}
 
 .view_more{
 	color:white;
 	background-color: #4f4d6a;
 	border:none;
+	border-radius: 5px;
 	position: absolute;
 	top:200px;
 	width: 100px;
@@ -200,8 +241,11 @@ summary{
 .view_one{
 	left:300px;
 }
+.view_two{
+	left:625px;
+}
 .view_three{
-	right:300px;
+	left:945px;
 }
 #foother_page{
 	width: 1550px;
@@ -217,6 +261,35 @@ summary{
 }
 .fixed_butons{
 	top:600px;
+}
+#foother_section_first{
+	margin-right: 75px;
+	position: absolute;
+	top:50px;
+	left:300px;
+	width:570px;
+	height: 110px;
+}
+#foother_section_first > h4{
+	font-size: 16px;
+}
+#foother_section_first > p{
+	font-size:12px;
+	line-height: 25px;
+}
+#foother_section_second{
+	position: absolute;
+	top:50px;
+	left:900px;
+	width: 260px;
+	height: 35px;
+}
+#foother_section_second > h4{
+	font-size: 16px;
+}
+#foother_section_second > p{
+	font-size:12px;
+	line-height: 25px;
 }
 #copyright{
 	display: flex;
