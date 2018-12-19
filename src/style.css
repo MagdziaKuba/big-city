@@ -99,6 +99,7 @@ h1,h2,h3,h4,h5,h6{
 
 .first_button{
 	background-color: #5b5976;
+	font-weight: 100;
 }
 .first_button:hover{
 	background-color: white;
@@ -107,6 +108,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .second_button{
 	background-color: #b7a4b1;
+	font-weight: 100;
 }
 .second_button:hover{
 	background-color: white;
@@ -203,6 +205,7 @@ h1,h2,h3,h4,h5,h6{
 }
 summary{
 	font-size: 16px;
+	font-style: italic;
 }
 .summary_article{
 	margin-top: 20px;
@@ -300,4 +303,7 @@ summary{
 	position: absolute;
 	top:2500px;
 	margin-left:300px;
+}
+.inclined_letters{
+	font-style: italic;
 }
